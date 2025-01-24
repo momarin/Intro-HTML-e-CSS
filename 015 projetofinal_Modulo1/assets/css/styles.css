@@ -1,0 +1,178 @@
+/* estilos da página web*/
+
+* {
+    margin: 0;/*para que o browser não assuma os dados padrões, eu os zero*/
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+    /* --------------------------------------- */
+    /* classes de utilização geral */
+
+.text-center { /*posição do texto*/
+    text-align: center;
+}    
+.margin-top-40 {
+    margin-top: 40px;
+}
+/* --------------------------------------- */
+
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233F;
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190FF;
+}
+/* -------------------------------------------- */
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: #06345d;
+}
+.container-navegacao a { /*navegação de hiperligações*/
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none; /*remoção do ___*/
+    color: #7cc2ff;
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;
+}
+/* -------------------------------------------- */
+.container-homepage {
+    background-color: #05192a;
+    overflow: auto; /*espaço vai esticar de acordo com o conteúdo que for acrescentado*/
+}
+.container-homepage .servico {
+    float: center; /*centralizada*/
+    margin: 60px auto; /*margem vertical 60px e centralizada auto*/
+    background-color: #061f35;
+    width: 50%; /*largura de 50% total da pagina*/
+    padding: 50px; /*espaçamento interior de 50px em toda a volta*/
+    border-radius: 10px; /*arredondamento dos cantos em 10px*/
+    text-align: center; /*texto alinhado ao centro*/
+}
+.container-homepage .servico .icone { /*as classes servico e icone vão ter marginbottom de 10 px*/
+    margin-bottom: 10px;
+}
+
+.container-homepage .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+
+.container-homepage .servico-texto-realce { /*realce da palavra Inteligencia artificial (AI) no primeiro parágrafo da home*/
+    color: white;
+    font-weight: bold;
+}
+
+.container-servicos-contatos {
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+
+.container-servicos-contatos .botoes-servicos-contatos {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contatos a { /*hiperligações*/
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.botoes-servicos-contatos a:hover { /*para qnd passar o cursor em cima dos botoes*/
+    background-color: white;
+    color: black;
+}
+/* -------------------------------------------- */
+
+.container-servicos {
+    background-color: #05192a;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;;
+}
+
+.container-servicos h3 {
+    color: #2097ff;
+    padding: 20px 0; /*espaçamento 20 vertical, 0 horizontal*/
+}
+
+.container-servicos article {
+    width: 40%;;
+    margin: auto;
+    float: center;
+}
+.container-servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
+/* -------------------------------------------- */
+
+.container-contatos {
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-contatos .contatos {
+    display: block; /*icones acima do texto, alinhados à vertical, não horizontal*/
+    font-size: 2em;
+    text-decoration: none; /*remoção da linha das hiperligações*/
+    color: #002aff;
+    margin-bottom: 20px;
+}
+
+
+/* -------------------------------------------- */
+footer { /*seleção do elemento footer*/
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+    columns: gray;
+}
